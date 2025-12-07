@@ -1,0 +1,26 @@
+numbers = [0,1,2,3,4,5,6,7,8,9]
+
+if 7 in numbers:
+    print("7 jets w liście numbers")
+else:
+    print("7 nie jest na liście")
+
+animals = ("pies", "kot", "ryba")
+
+if "kot" not in animals:
+    print("Kot jest w krotce animals")
+else:
+    print("kot nie jest w krotce animals")
+
+
+user = {
+    "name":"Adam",
+    "Age":"19"
+}
+
+if "name" in user.keys():
+    print("name znajduje się w słowniku")
+else:
+    print("name nie znajduje się w słowmiku")
+
+
